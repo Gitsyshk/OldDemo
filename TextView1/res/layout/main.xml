@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<TextView 
+	    android:id="@+id/textview1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="20sp"/>
+	<TextView 
+	    android:id="@+id/textview2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="20sp"
+	    android:textColor="@color/green"
+	    android:textSize="20sp"
+	    android:autoLink="all"
+	    android:text="@string/link_text"
+	    />
+</LinearLayout>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AutoComplateTextViewActivity!</string>
+    <string name="app_name">AutoComplateTextView</string>
+    <string name="dbAutoComlete">绑定数据库获取提示内容</string>
+
+</resources>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/user_wizard_2" >
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+	<!-- 企业信息 -->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <Button
+                    android:id="@+id/btnEntryprise"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="企业信息"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            <!--产品服务  -->
+             <FrameLayout
+                  android:layout_marginTop="-2.5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 >
+
+                <Button
+                    android:id="@+id/btnProduct"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="产品服务"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            
+             <!--新闻资讯 -->
+              <FrameLayout
+                   android:layout_marginTop="-2.5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 >
+                <Button
+                    android:id="@+id/btnNews"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="新闻资讯"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            
+            <!-- 企业信息 -->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <Button
+                    android:id="@+id/btnEntryprise"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="企业信息"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            <!--产品服务  -->
+             <FrameLayout
+                  android:layout_marginTop="-2.5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 >
+
+                <Button
+                    android:id="@+id/btnProduct"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="产品服务"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            
+             <!--新闻资讯 -->
+              <FrameLayout
+                   android:layout_marginTop="-2.5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 >
+                <Button
+                    android:id="@+id/btnNews"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="新闻资讯"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            
+            
+            <!-- 我的产品 -->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <Button
+                    android:id="@+id/btnMyProduct"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的产品"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            <!--我的预约  -->
+             <FrameLayout
+                  android:layout_marginTop="-2.5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 >
+
+                <Button
+                    android:id="@+id/btnMyOrder"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的预约"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            
+             <!--我的帐号 -->
+              <FrameLayout
+                   android:layout_marginTop="-2.5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 >
+                <Button
+                    android:id="@+id/btnMyNo"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的帐号"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            
+            
+              
+              
+               <!-- 微博关注 -->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <Button
+                    android:id="@+id/btnWeibo"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="微博关注"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            
+             <!--其他 -->
+              <FrameLayout
+                   android:layout_marginTop="-2.5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 >
+                <Button
+                    android:id="@+id/modifyInfo"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="其他"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </FrameLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+       
+
+</RelativeLayout>

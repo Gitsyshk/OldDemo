@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zoe.androidgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".AndroidBasicsStarter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.LifeCycleTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/title_activity_life_cycle_test" >
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.SingleTouchTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="SingleTouch" >
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.MultiTouchTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="MultiTouchTest" >
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.AccelerometerTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Accelerometer" >
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.AssetsTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Assets" >
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.ExternalStorageTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="ExternalStorage" >
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.SoundPoolTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="SoundPool" >
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.FullScreenTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="FullScreen" >
+        </activity>
+        <activity
+            android:name="com.zoe.androidgame.RenderViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="RenderView" >
+        </activity>
+        <activity
+            android:name=".ShapeTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="RenderView" >
+        </activity>
+        <activity
+            android:name=".BitmapTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Bitmap Test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FontTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Font Test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SurfaceViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

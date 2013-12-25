@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="490dp" >
+
+        <TextView
+            android:id="@+id/View01"
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:background="#ffffff"
+            android:height="50dp"
+            android:width="280dp" />
+
+        <TextView
+            android:id="@+id/View02"
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:background="#dddddd"
+            android:height="50dp"
+            android:width="240dp" />
+
+        <TextView
+            android:id="@+id/View03"
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:background="#bbbbbb"
+            android:height="50dp"
+            android:width="200dp" />
+
+        <TextView
+            android:id="@+id/View04"
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:background="#999999"
+            android:height="50dp"
+            android:width="160dp" />
+
+        <TextView
+            android:id="@+id/View05"
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:background="#777777"
+            android:height="50dp"
+            android:width="120dp" />
+
+        <TextView
+            android:id="@+id/View06"
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:background="#555555"
+            android:height="50dp"
+            android:width="80dp" />
+
+        <TextView
+            android:id="@+id/View07"
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:background="#333333"
+            android:height="50dp"
+            android:width="40dp" />
+    </FrameLayout>
+
+</LinearLayout>

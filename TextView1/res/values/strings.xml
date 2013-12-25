@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Html显示</string>
+    <string name="action_settings">Settings</string>
+    <color name="green">#00ff00</color>
+	<string name="link_text"><a href="tel:15216105617"></a>拨打电话</string>
+</resources>
